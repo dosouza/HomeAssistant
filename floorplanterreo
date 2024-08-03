@@ -48,6 +48,18 @@ elements:
       top: 48.3%
       left: 50%
       width: 100%
+# 05 Image Luzes Fundo Quintal
+  - type: image
+    entity: switch.quintal_fundos
+    tap_action: none
+    hold_action: none
+    state_image:
+      'on': /local/planta3D/varanda_sophia_acesa_4.png
+      'off': /local/planta3D/transparente.png
+    style:
+      top: 48.3%
+      left: 50%
+      width: 100%
 # 01 State Icon Garagem
   - type: state-icon
     entity: cover.switch_garagem_porta
@@ -98,6 +110,19 @@ elements:
     style:
       top: 93%
       left: 33.5%
+      opacity: 5
+      '--mdc-icon-size': 15px
+      —-paper-item-icon-color: white
+# 05 State Icon Luzes Fundo Quintal
+  - type: state-icon
+    entity: switch.quintal_fundos
+    tap_action:
+      action: toggle
+    hold_action:
+      action: more-info
+    style:
+      top: 37%
+      left: 35%
       opacity: 5
       '--mdc-icon-size': 15px
       —-paper-item-icon-color: white
