@@ -1,30 +1,27 @@
 type: picture-elements
 elements:
-# 01 Image Garagem
   - type: image
-    entity: cover.switch_garagem_porta
+    entity: cover.portao_garagem_porta
     tap_action: none
     hold_action: none
     state_image:
       'on': /local/planta3D/varanda_sophia_acesa_4.png
       'off': /local/planta3D/transparente.png
     style:
-      top: 48.3%
+      top: 50%
       left: 50%
       width: 100%
-# 02 Image Portão Social
   - type: image
-    entity: scene.on_portao
+    entity: cover.portao_social_porta
     tap_action: none
     hold_action: none
     state_image:
       'on': /local/planta3D/varanda_sophia_acesa_4.png
       'off': /local/planta3D/transparente.png
     style:
-      top: 48.3%
+      top: 50%
       left: 50%
       width: 100%
-# 03 Image Area Gourmet
   - type: image
     entity: switch.area_gourmet
     tap_action: none
@@ -36,7 +33,6 @@ elements:
       top: 48.3%
       left: 50%
       width: 100%
-# 04 Image Corredor Jantar
   - type: image
     entity: switch.corredor_jantar
     tap_action: none
@@ -48,7 +44,6 @@ elements:
       top: 48.3%
       left: 50%
       width: 100%
-# 05 Image Luzes Fundo Quintal
   - type: image
     entity: switch.quintal_fundos
     tap_action: none
@@ -60,34 +55,31 @@ elements:
       top: 48.3%
       left: 50%
       width: 100%
-# 01 State Icon Garagem
   - type: state-icon
-    entity: cover.switch_garagem_porta
+    entity: cover.portao_garagem_porta
     tap_action:
       action: toggle
     hold_action:
       action: more-info
     style:
-      top: 61%
-      left: 50%
+      top: 48%
+      left: 75%
       opacity: 5
-      '--mdc-icon-size': 15px
+      '--mdc-icon-size': 25px
       —-paper-item-icon-color: white
-# 02 State Icon Portão Social
   - type: state-icon
-    entity: scene.on_portao
+    entity: cover.portao_social_porta
     icon: mdi:door
     tap_action:
       action: toggle
     hold_action:
       action: more-info
     style:
-      top: 45%
-      left: 40%
+      top: 54%
+      left: 75%
       opacity: 5
-      '--mdc-icon-size': 15px
+      '--mdc-icon-size': 25px
       —-paper-item-icon-color: white
-# 03 State Icon Area Gourmet
   - type: state-icon
     entity: switch.area_gourmet
     tap_action:
@@ -100,7 +92,6 @@ elements:
       opacity: 5
       '--mdc-icon-size': 15px
       —-paper-item-icon-color: white
-# 04 State Icon Corredor Jantar
   - type: state-icon
     entity: switch.corredor_jantar
     tap_action:
@@ -113,7 +104,6 @@ elements:
       opacity: 5
       '--mdc-icon-size': 15px
       —-paper-item-icon-color: white
-# 05 State Icon Luzes Fundo Quintal
   - type: state-icon
     entity: switch.quintal_fundos
     tap_action:
@@ -126,4 +116,4 @@ elements:
       opacity: 5
       '--mdc-icon-size': 15px
       —-paper-item-icon-color: white
-image: /local/planta3D/terreo_apagado_1.png
+image: /local/planta3D/terreo_apagado_3.png
