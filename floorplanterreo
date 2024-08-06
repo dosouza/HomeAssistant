@@ -1,85 +1,129 @@
 type: picture-elements
 elements:
+# 01 Image Garagem
   - type: image
-    entity: cover.portao_garagem_porta
+    entity: cover.portao_garagem
     tap_action: none
     hold_action: none
     state_image:
       'on': /local/planta3D/varanda_sophia_acesa_4.png
       'off': /local/planta3D/transparente.png
     style:
-      top: 50%
+      top: 47.5%
       left: 50%
       width: 100%
+# 02 Image Portão Social
   - type: image
-    entity: cover.portao_social_porta
+    entity: scene.on_portao
     tap_action: none
     hold_action: none
     state_image:
       'on': /local/planta3D/varanda_sophia_acesa_4.png
       'off': /local/planta3D/transparente.png
     style:
-      top: 50%
+      top: 47.5%
       left: 50%
       width: 100%
+# 03 Image Area Gourmet
   - type: image
     entity: switch.area_gourmet
     tap_action: none
     hold_action: none
     state_image:
-      'on': /local/planta3D/varanda_sophia_acesa_4.png
+      'on': /local/planta3D/terreo_gourmet_1.png
       'off': /local/planta3D/transparente.png
     style:
-      top: 48.3%
+      top: 47.5%
       left: 50%
       width: 100%
+# 04 Image Corredor Jantar
   - type: image
     entity: switch.corredor_jantar
     tap_action: none
     hold_action: none
     state_image:
-      'on': /local/planta3D/varanda_sophia_acesa_4.png
+      'on': /local/planta3D/terreo_corredor_2.png
       'off': /local/planta3D/transparente.png
     style:
-      top: 48.3%
+      top: 47.5%
       left: 50%
       width: 100%
+# 05 Image Banheiro Social
   - type: image
-    entity: switch.quintal_fundos
+    entity: light.banheiro_social
     tap_action: none
     hold_action: none
     state_image:
-      'on': /local/planta3D/varanda_sophia_acesa_4.png
+      'on': /local/planta3D/terreo_banheiro_1.png
       'off': /local/planta3D/transparente.png
     style:
-      top: 48.3%
+      top: 47.5%
       left: 50%
       width: 100%
+# 06 Image Refletor Quintal
+  - type: image
+    entity: switch.jantar
+    tap_action: none
+    hold_action: none
+    state_image:
+      'on': /local/planta3D/terreo_jantar_1.png
+      'off': /local/planta3D/transparente.png
+    style:
+      top: 47.5%
+      left: 50%
+      width: 100%
+# 07 Image Jantar
+  - type: image
+    entity: switch.refletor_quintal
+    tap_action: none
+    hold_action: none
+    state_image:
+      'on': /local/planta3D/terreo_quintal_2.png
+      'off': /local/planta3D/transparente.png
+    style:
+      top: 47.5%
+      left: 50%
+      width: 100%
+# 08 Image Cozinha
+  - type: image
+    entity: switch.cozinha
+    tap_action: none
+    hold_action: none
+    state_image:
+      'on': /local/planta3D/terreo_cozinha_1.png
+      'off': /local/planta3D/transparente.png
+    style:
+      top: 47.5%
+      left: 50%
+      width: 100%
+# 01 State Icon Garagem
   - type: state-icon
-    entity: cover.portao_garagem_porta
+    entity: cover.portao_garagem
     tap_action:
       action: toggle
     hold_action:
       action: more-info
     style:
-      top: 48%
-      left: 75%
+      top: 49%
+      left: 72%
       opacity: 5
-      '--mdc-icon-size': 25px
+      '--mdc-icon-size': 35px
       —-paper-item-icon-color: white
+# 02 State Icon Portão Social
   - type: state-icon
-    entity: cover.portao_social_porta
+    entity: scene.on_portao
     icon: mdi:door
     tap_action:
       action: toggle
     hold_action:
       action: more-info
     style:
-      top: 54%
-      left: 75%
+      top: 53%
+      left: 72%
       opacity: 5
-      '--mdc-icon-size': 25px
+      '--mdc-icon-size': 35px
       —-paper-item-icon-color: white
+# 03 State Icon Area Gourmet
   - type: state-icon
     entity: switch.area_gourmet
     tap_action:
@@ -87,11 +131,12 @@ elements:
     hold_action:
       action: more-info
     style:
-      top: 50%
-      left: 30%
+      top: 57%
+      left: 72%
       opacity: 5
-      '--mdc-icon-size': 15px
+      '--mdc-icon-size': 35px
       —-paper-item-icon-color: white
+# 04 State Icon Corredor Jantar
   - type: state-icon
     entity: switch.corredor_jantar
     tap_action:
@@ -99,21 +144,61 @@ elements:
     hold_action:
       action: more-info
     style:
-      top: 93%
-      left: 33.5%
+      top: 61%
+      left: 72%
       opacity: 5
-      '--mdc-icon-size': 15px
+      '--mdc-icon-size': 35px
       —-paper-item-icon-color: white
+# 05 State Icon Banheiro
   - type: state-icon
-    entity: switch.quintal_fundos
+    entity: light.banheiro_social
     tap_action:
       action: toggle
     hold_action:
       action: more-info
     style:
-      top: 37%
-      left: 35%
+      top: 65%
+      left: 72%
       opacity: 5
-      '--mdc-icon-size': 15px
+      '--mdc-icon-size': 35px
       —-paper-item-icon-color: white
-image: /local/planta3D/terreo_apagado_3.png
+# 06 State Refletor Quintal
+  - type: state-icon
+    entity: switch.refletor_quintal
+    tap_action:
+      action: toggle
+    hold_action:
+      action: more-info
+    style:
+      top: 69%
+      left: 72%
+      opacity: 5
+      '--mdc-icon-size': 35px
+      —-paper-item-icon-color: white
+# 07 State Jantar
+  - type: state-icon
+    entity: switch.jantar
+    tap_action:
+      action: toggle
+    hold_action:
+      action: more-info
+    style:
+      top: 73%
+      left: 72%
+      opacity: 5
+      '--mdc-icon-size': 35px
+      —-paper-item-icon-color: white
+# 08 State Cozinha
+  - type: state-icon
+    entity: switch.cozinha
+    tap_action:
+      action: toggle
+    hold_action:
+      action: more-info
+    style:
+      top: 77%
+      left: 72%
+      opacity: 5
+      '--mdc-icon-size': 35px
+      —-paper-item-icon-color: white
+image: /local/planta3D/terreo_apagado_7.png
