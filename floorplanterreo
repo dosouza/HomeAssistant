@@ -110,7 +110,7 @@ elements:
       width: 100%
 # 10 Image Quintal Fundos
   - type: image
-    entity: switch.quintal_fundos
+    entity: switch.refletor_fundos
     tap_action: none
     hold_action: none
     state_image:
@@ -169,29 +169,29 @@ elements:
 #      left: 50%
 #      width: 100%
 # 15 Image Portão Social
-  - type: image
-    entity: scene.on_portao
-    tap_action: none
-    hold_action: none
-    state_image:
-      'on': /local/planta3D/varanda_sophia_acesa_4.png
-      'off': /local/planta3D/transparente.png
-    style:
-      top: 47.5%
-      left: 50%
-      width: 100%
+#  - type: image
+#    entity: scene.on_portao
+#    tap_action: none
+#    hold_action: none
+#    state_image:
+#      'on': /local/planta3D/varanda_sophia_acesa_4.png
+#      'off': /local/planta3D/transparente.png
+#    style:
+#      top: 47.5%
+#      left: 50%
+#      width: 100%
 # 16 Image Cinema
-  - type: image
-    entity: scene.on_cinema
-    tap_action: none
-    hold_action: none
-    state_image:
-      'on': /local/planta3D/varanda_sophia_acesa_4.png
-      'off': /local/planta3D/transparente.png
-    style:
-      top: 47.5%
-      left: 50%
-      width: 100%
+#  - type: image
+#    entity: scene.on_cinema
+#    tap_action: none
+#    hold_action: none
+#    state_image:
+#      'on': /local/planta3D/varanda_sophia_acesa_4.png
+#      'off': /local/planta3D/transparente.png
+#    style:
+#      top: 47.5%
+#      left: 50%
+#      width: 100%
 # 01 State Icon Area Gourmet
   - type: state-icon
     entity: switch.area_gourmet
@@ -304,8 +304,8 @@ elements:
     hold_action:
       action: more-info
     style:
-      top: 96%
-      left: 95%
+      top: 40%
+      left: 96%
       opacity: 5
       '--mdc-icon-size': 30px
       —-paper-item-icon-color: white
@@ -317,8 +317,8 @@ elements:
     hold_action:
       action: more-info
     style:
-      top: 103%
-      left: 95%
+      top: 47%
+      left: 96%
       opacity: 5
       '--mdc-icon-size': 30px
       —-paper-item-icon-color: white
@@ -330,8 +330,8 @@ elements:
     hold_action:
       action: more-info
     style:
-      top: 110%
-      left: 95%
+      top: 54%
+      left: 96%
       opacity: 5
       '--mdc-icon-size': 30px
       —-paper-item-icon-color: white
@@ -343,8 +343,8 @@ elements:
     hold_action:
       action: more-info
     style:
-      top: 117%
-      left: 95%
+      top: 61%
+      left: 96%
       opacity: 5
       '--mdc-icon-size': 30px
       —-paper-item-icon-color: white
@@ -356,8 +356,8 @@ elements:
 #    hold_action:
 #      action: more-info
 #    style:
-#      top: 124%
-#      left: 95%
+#      top: 68%
+#      left: 96%
 #      opacity: 5
 #      '--mdc-icon-size': 30px
 #      —-paper-item-icon-color: white
@@ -369,47 +369,47 @@ elements:
 #    hold_action:
 #      action: more-info
 #    style:
-#      top: 131%
-#      left: 95%
+#      top: 75%
+#      left: 96%
 #      opacity: 5
 #      '--mdc-icon-size': 30px
 #      —-paper-item-icon-color: white
 # 15 State Portão Social
-  - type: state-icon
-    entity: scene.on_portao
-    tap_action:
-      action: toggle
-    hold_action:
-      action: more-info
-    style:
-      top: 138%
-      left: 95%
-      opacity: 5
-      '--mdc-icon-size': 30px
-      —-paper-item-icon-color: white
+#  - type: state-icon
+#    entity: scene.on_portao
+#    tap_action:
+#      action: toggle
+#    hold_action:
+#      action: more-info
+#    style:
+#      top: 82%
+#      left: 96%
+#      opacity: 5
+#      '--mdc-icon-size': 30px
+#      —-paper-item-icon-color: white
 # 16 Image Cinema
-  - type: state-icon
-    entity: scene.on_cinema
-    tap_action:
-      action: toggle
-    hold_action:
-      action: more-info
-    style:
-      top: 145%
-      left: 95%
-      opacity: 5
-      '--mdc-icon-size': 30px
-      —-paper-item-icon-color: white
-  - type: state-icon
-    entity: scene.off_cinema
-    tap_action:
-      action: toggle
-    hold_action:
-      action: more-info
-    style:
-      top: 145%
-      left: 90%
-      opacity: 5
-      '--mdc-icon-size': 30px
-      —-paper-item-icon-color: white
+#  - type: state-icon
+#    entity: scene.on_cinema
+#    tap_action:
+#      action: toggle
+#    hold_action:
+#      action: more-info
+#    style:
+#      top: 89%
+#      left: 83%
+#      opacity: 5
+#      '--mdc-icon-size': 30px
+#      —-paper-item-icon-color: white
+#  - type: state-icon
+#    entity: scene.off_cinema
+#    tap_action:
+#      action: toggle
+#    hold_action:
+#      action: more-info
+#    style:
+#      top: 89%
+#      left: 96%
+#      opacity: 5
+#      '--mdc-icon-size': 30px
+#      —-paper-item-icon-color: white
 image: /local/planta3D/terreo_apagado_12.png
