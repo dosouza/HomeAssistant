@@ -36,7 +36,7 @@ elements:
       top: 47.5%
       left: 50%
       width: 100%
-# 05 Image Jantar
+# 04 Image Jantar
   - type: image
     entity: switch.refletor_quintal
     tap_action: none
@@ -48,13 +48,49 @@ elements:
       top: 47.5%
       left: 50%
       width: 100%
-# 06 Image Cozinha
+# 05 Image Cozinha
   - type: image
     entity: switch.cozinha
     tap_action: none
     hold_action: none
     state_image:
       'on': /local/planta3D/terreo_cozinha_1.png
+      'off': /local/planta3D/transparente.png
+    style:
+      top: 47.5%
+      left: 50%
+      width: 100%
+# 06 Image Despensa
+  - type: image
+    entity: switch.despensa
+    tap_action: none
+    hold_action: none
+    state_image:
+      'on': /local/planta3D/varanda_sophia_acesa_4.png
+      'off': /local/planta3D/transparente.png
+    style:
+      top: 47.5%
+      left: 50%
+      width: 100%
+# 07 Image Sala de Video
+  - type: image
+    entity: switch.sala_de_video
+    tap_action: none
+    hold_action: none
+    state_image:
+      'on': /local/planta3D/varanda_sophia_acesa_4.png
+      'off': /local/planta3D/transparente.png
+    style:
+      top: 47.5%
+      left: 50%
+      width: 100%
+# 08 Image Sala de Estar
+  - type: image
+    entity: switch.sala_de_estar
+    tap_action: none
+    hold_action: none
+    state_image:
+      'on': /local/planta3D/varanda_sophia_acesa_4.png
       'off': /local/planta3D/transparente.png
     style:
       top: 47.5%
@@ -72,6 +108,90 @@ elements:
       top: 47.5%
       left: 50%
       width: 100%
+# 10 Image Quintal Fundos
+  - type: image
+    entity: switch.quintal_fundos
+    tap_action: none
+    hold_action: none
+    state_image:
+      'on': /local/planta3D/varanda_sophia_acesa_4.png
+      'off': /local/planta3D/transparente.png
+    style:
+      top: 47.5%
+      left: 50%
+      width: 100%
+# 11 Image Luz Garagem
+  - type: image
+    entity: light.interruptor_garagem_externo
+    tap_action: none
+    hold_action: none
+    state_image:
+      'on': /local/planta3D/varanda_sophia_acesa_4.png
+      'off': /local/planta3D/transparente.png
+    style:
+      top: 47.5%
+      left: 50%
+      width: 100%
+# 12 Image Luz Rua
+  - type: image
+    entity: light.refletor_rua
+    tap_action: none
+    hold_action: none
+    state_image:
+      'on': /local/planta3D/varanda_sophia_acesa_4.png
+      'off': /local/planta3D/transparente.png
+    style:
+      top: 47.5%
+      left: 50%
+      width: 100%
+# 13 Image Lavanderia
+#  - type: image
+#    entity: ?????
+#    tap_action: none
+#    hold_action: none
+#    state_image:
+#      'on': /local/planta3D/varanda_sophia_acesa_4.png
+#      'off': /local/planta3D/transparente.png
+#    style:
+#      top: 47.5%
+#      left: 50%
+#      width: 100%
+# 14 Image Garagem
+#  - type: image
+#    entity: ?????
+#    tap_action: none
+#    hold_action: none
+#    state_image:
+#      'on': /local/planta3D/varanda_sophia_acesa_4.png
+#      'off': /local/planta3D/transparente.png
+#    style:
+#      top: 47.5%
+#      left: 50%
+#      width: 100%
+# 15 Image Portão Social
+  - type: image
+    entity: scene.on_portao
+    tap_action: none
+    hold_action: none
+    state_image:
+      'on': /local/planta3D/varanda_sophia_acesa_4.png
+      'off': /local/planta3D/transparente.png
+    style:
+      top: 47.5%
+      left: 50%
+      width: 100%
+# 16 Image Cinema
+  - type: image
+    entity: scene.on_cinema
+    tap_action: none
+    hold_action: none
+    state_image:
+      'on': /local/planta3D/varanda_sophia_acesa_4.png
+      'off': /local/planta3D/transparente.png
+    style:
+      top: 47.5%
+      left: 50%
+      width: 100%
 # 01 State Icon Area Gourmet
   - type: state-icon
     entity: switch.area_gourmet
@@ -80,10 +200,10 @@ elements:
     hold_action:
       action: more-info
     style:
-      top: 46%
-      left: 68.5%
+      top: 40%
+      left: 65%
       opacity: 5
-      '--mdc-icon-size': 20px
+      '--mdc-icon-size': 30px
       —-paper-item-icon-color: white
 # 02 State Icon Corredor Jantar
   - type: state-icon
@@ -93,10 +213,10 @@ elements:
     hold_action:
       action: more-info
     style:
-      top: 50.5%
-      left: 68.5%
+      top: 47%
+      left: 65%
       opacity: 5
-      '--mdc-icon-size': 20px
+      '--mdc-icon-size': 30px
       —-paper-item-icon-color: white
 # 03 State Icon Banheiro
   - type: state-icon
@@ -106,10 +226,10 @@ elements:
     hold_action:
       action: more-info
     style:
-      top: 55.3%
-      left: 68.5%
+      top: 54%
+      left: 65%
       opacity: 5
-      '--mdc-icon-size': 20px
+      '--mdc-icon-size': 30px
       —-paper-item-icon-color: white
 # 05 State Jantar
   - type: state-icon
@@ -119,10 +239,10 @@ elements:
     hold_action:
       action: more-info
     style:
-      top: 60.1%
-      left: 68.5%
+      top: 61%
+      left: 65%
       opacity: 5
-      '--mdc-icon-size': 20px
+      '--mdc-icon-size': 30px
       —-paper-item-icon-color: white
 # 06 State Cozinha
   - type: state-icon
@@ -132,10 +252,49 @@ elements:
     hold_action:
       action: more-info
     style:
-      top: 64.6%
-      left: 68.5%
+      top: 68%
+      left: 65%
       opacity: 5
-      '--mdc-icon-size': 20px
+      '--mdc-icon-size': 30px
+      —-paper-item-icon-color: white
+# 06 State Despensa
+  - type: state-icon
+    entity: switch.despensa
+    tap_action:
+      action: toggle
+    hold_action:
+      action: more-info
+    style:
+      top: 75%
+      left: 65%
+      opacity: 5
+      '--mdc-icon-size': 30px
+      —-paper-item-icon-color: white
+# 07 State Sala de Video
+  - type: state-icon
+    entity: switch.sala_de_video
+    tap_action:
+      action: toggle
+    hold_action:
+      action: more-info
+    style:
+      top: 82%
+      left: 65%
+      opacity: 5
+      '--mdc-icon-size': 30px
+      —-paper-item-icon-color: white
+# 08 State Sala de Estar
+  - type: state-icon
+    entity: switch.sala_de_estar
+    tap_action:
+      action: toggle
+    hold_action:
+      action: more-info
+    style:
+      top: 89%
+      left: 65%
+      opacity: 5
+      '--mdc-icon-size': 30px
       —-paper-item-icon-color: white
 # 09 State Refletor Quintal
   - type: state-icon
@@ -145,9 +304,112 @@ elements:
     hold_action:
       action: more-info
     style:
-      top: 46%
-      left: 92.5%
+      top: 96%
+      left: 95%
       opacity: 5
-      '--mdc-icon-size': 20px
+      '--mdc-icon-size': 30px
       —-paper-item-icon-color: white
-image: /local/planta3D/terreo_apagado_9.png
+# 10 State Quintal Fundos
+  - type: state-icon
+    entity: switch.refletor_fundos
+    tap_action:
+      action: toggle
+    hold_action:
+      action: more-info
+    style:
+      top: 103%
+      left: 95%
+      opacity: 5
+      '--mdc-icon-size': 30px
+      —-paper-item-icon-color: white
+# 11 State Luz Garagem
+  - type: state-icon
+    entity: light.interruptor_garagem_externo
+    tap_action:
+      action: toggle
+    hold_action:
+      action: more-info
+    style:
+      top: 110%
+      left: 95%
+      opacity: 5
+      '--mdc-icon-size': 30px
+      —-paper-item-icon-color: white
+# 12 State Luz Rua
+  - type: state-icon
+    entity: light.refletor_rua
+    tap_action:
+      action: toggle
+    hold_action:
+      action: more-info
+    style:
+      top: 117%
+      left: 95%
+      opacity: 5
+      '--mdc-icon-size': 30px
+      —-paper-item-icon-color: white
+# 13 State Lavanderia
+#  - type: state-icon
+#    entity: ?????
+#    tap_action:
+#      action: toggle
+#    hold_action:
+#      action: more-info
+#    style:
+#      top: 124%
+#      left: 95%
+#      opacity: 5
+#      '--mdc-icon-size': 30px
+#      —-paper-item-icon-color: white
+# 14 State Garagem
+#  - type: state-icon
+#    entity: ?????
+#    tap_action:
+#      action: toggle
+#    hold_action:
+#      action: more-info
+#    style:
+#      top: 131%
+#      left: 95%
+#      opacity: 5
+#      '--mdc-icon-size': 30px
+#      —-paper-item-icon-color: white
+# 15 State Portão Social
+  - type: state-icon
+    entity: scene.on_portao
+    tap_action:
+      action: toggle
+    hold_action:
+      action: more-info
+    style:
+      top: 138%
+      left: 95%
+      opacity: 5
+      '--mdc-icon-size': 30px
+      —-paper-item-icon-color: white
+# 16 Image Cinema
+  - type: state-icon
+    entity: scene.on_cinema
+    tap_action:
+      action: toggle
+    hold_action:
+      action: more-info
+    style:
+      top: 145%
+      left: 95%
+      opacity: 5
+      '--mdc-icon-size': 30px
+      —-paper-item-icon-color: white
+  - type: state-icon
+    entity: scene.off_cinema
+    tap_action:
+      action: toggle
+    hold_action:
+      action: more-info
+    style:
+      top: 145%
+      left: 90%
+      opacity: 5
+      '--mdc-icon-size': 30px
+      —-paper-item-icon-color: white
+image: /local/planta3D/terreo_apagado_12.png
