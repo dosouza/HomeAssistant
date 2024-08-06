@@ -80,8 +80,8 @@ elements:
     hold_action:
       action: more-info
     style:
-      top: 47%
-      left: 68%
+      top: 46%
+      left: 68.5%
       opacity: 5
       '--mdc-icon-size': 20px
       —-paper-item-icon-color: white
@@ -93,8 +93,8 @@ elements:
     hold_action:
       action: more-info
     style:
-      top: 52%
-      left: 68%
+      top: 50.5%
+      left: 68.5%
       opacity: 5
       '--mdc-icon-size': 20px
       —-paper-item-icon-color: white
@@ -106,8 +106,8 @@ elements:
     hold_action:
       action: more-info
     style:
-      top: 58%
-      left: 68%
+      top: 55.3%
+      left: 68.5%
       opacity: 5
       '--mdc-icon-size': 20px
       —-paper-item-icon-color: white
@@ -119,8 +119,8 @@ elements:
     hold_action:
       action: more-info
     style:
-      top: 66%
-      left: 68%
+      top: 60.1%
+      left: 68.5%
       opacity: 5
       '--mdc-icon-size': 20px
       —-paper-item-icon-color: white
@@ -132,8 +132,8 @@ elements:
     hold_action:
       action: more-info
     style:
-      top: 76%
-      left: 68%
+      top: 64.6%
+      left: 68.5%
       opacity: 5
       '--mdc-icon-size': 20px
       —-paper-item-icon-color: white
@@ -145,8 +145,8 @@ elements:
     hold_action:
       action: more-info
     style:
-      top: 64%
-      left: 68%
+      top: 46%
+      left: 92.5%
       opacity: 5
       '--mdc-icon-size': 20px
       —-paper-item-icon-color: white
