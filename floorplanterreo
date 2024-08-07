@@ -126,7 +126,7 @@ elements:
     tap_action: none
     hold_action: none
     state_image:
-      'on': /local/planta3D/varanda_sophia_acesa_4.png
+      'on': /local/planta3D/terreo_garagem_1.png
       'off': /local/planta3D/transparente.png
     style:
       top: 47.5%
@@ -138,7 +138,7 @@ elements:
     tap_action: none
     hold_action: none
     state_image:
-      'on': /local/planta3D/varanda_sophia_acesa_4.png
+      'on': /local/planta3D/terreo_rua.png
       'off': /local/planta3D/transparente.png
     style:
       top: 47.5%
@@ -162,7 +162,7 @@ elements:
 #    tap_action: none
 #    hold_action: none
 #    state_image:
-#      'on': /local/planta3D/varanda_sophia_acesa_4.png
+#      'on': /local/planta3D/terreo_garagem_aberta.png
 #      'off': /local/planta3D/transparente.png
 #    style:
 #      top: 47.5%
@@ -170,11 +170,11 @@ elements:
 #      width: 100%
 # 15 Image Portão Social
 #  - type: image
-#    entity: scene.on_portao
+#    entity: cover.portao_social_porta
 #    tap_action: none
 #    hold_action: none
 #    state_image:
-#      'on': /local/planta3D/varanda_sophia_acesa_4.png
+#      'on': /local/planta3D/terreo_portao_aberto_1.png
 #      'off': /local/planta3D/transparente.png
 #    style:
 #      top: 47.5%
@@ -376,7 +376,7 @@ elements:
 #      —-paper-item-icon-color: white
 # 15 State Portão Social
 #  - type: state-icon
-#    entity: scene.on_portao
+#    entity: cover.portao_social_porta
 #    tap_action:
 #      action: toggle
 #    hold_action:
