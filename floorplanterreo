@@ -66,7 +66,7 @@ elements:
     tap_action: none
     hold_action: none
     state_image:
-      'on': /local/planta3D/varanda_sophia_acesa_4.png
+      'on': /local/planta3D/terreo_despensa.png
       'off': /local/planta3D/transparente.png
     style:
       top: 47.5%
@@ -78,7 +78,7 @@ elements:
     tap_action: none
     hold_action: none
     state_image:
-      'on': /local/planta3D/varanda_sophia_acesa_4.png
+      'on': /local/planta3D/terreo_sala_video_1.png
       'off': /local/planta3D/transparente.png
     style:
       top: 47.5%
@@ -90,7 +90,7 @@ elements:
     tap_action: none
     hold_action: none
     state_image:
-      'on': /local/planta3D/varanda_sophia_acesa_4.png
+      'on': /local/planta3D/terreo_sala_estar_1.png
       'off': /local/planta3D/transparente.png
     style:
       top: 47.5%
@@ -114,7 +114,7 @@ elements:
     tap_action: none
     hold_action: none
     state_image:
-      'on': /local/planta3D/varanda_sophia_acesa_4.png
+      'on': /local/planta3D/terreo_fundos.png
       'off': /local/planta3D/transparente.png
     style:
       top: 47.5%
@@ -145,17 +145,17 @@ elements:
       left: 50%
       width: 100%
 # 13 Image Lavanderia
-#  - type: image
-#    entity: ?????
-#    tap_action: none
-#    hold_action: none
-#    state_image:
-#      'on': /local/planta3D/varanda_sophia_acesa_4.png
-#      'off': /local/planta3D/transparente.png
-#    style:
-#      top: 47.5%
-#      left: 50%
-#      width: 100%
+  - type: image
+    entity: light.lavanderia
+    tap_action: none
+    hold_action: none
+    state_image:
+      'on': /local/planta3D/terreo_lavanderia.png
+      'off': /local/planta3D/transparente.png
+    style:
+      top: 47.5%
+      left: 50%
+      width: 100%
 # 14 Image Garagem
 #  - type: image
 #    entity: ?????
@@ -349,18 +349,18 @@ elements:
       '--mdc-icon-size': 30px
       —-paper-item-icon-color: white
 # 13 State Lavanderia
-#  - type: state-icon
-#    entity: ?????
-#    tap_action:
-#      action: toggle
-#    hold_action:
-#      action: more-info
-#    style:
-#      top: 68%
-#      left: 96%
-#      opacity: 5
-#      '--mdc-icon-size': 30px
-#      —-paper-item-icon-color: white
+  - type: state-icon
+    entity: light.lavanderia
+    tap_action:
+      action: toggle
+    hold_action:
+      action: more-info
+    style:
+      top: 68%
+      left: 96%
+      opacity: 5
+      '--mdc-icon-size': 30px
+      —-paper-item-icon-color: white
 # 14 State Garagem
 #  - type: state-icon
 #    entity: ?????
