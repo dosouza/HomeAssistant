@@ -100,7 +100,7 @@ elements:
       left: 50%
       width: 100%
   - type: image
-    entity: switch.filtro_de_linha_2
+    entity: switch.tomada_casal_1
     tap_action: none
     hold_action: none
     state_image:
@@ -202,7 +202,7 @@ elements:
       left: 59%
   - type: state-icon
     icon: mdi:light-flood-down
-    entity: switch.filtro_de_linha_2
+    entity: switch.tomada_casal_1
     tap_action:
       action: toggle
     hold_action:
