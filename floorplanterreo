@@ -74,7 +74,7 @@ elements:
       width: 100%
 # 07 Image Sala de Video
   - type: image
-    entity: switch.sala_de_video
+    entity: light.smart_switch_sala_video
     tap_action: none
     hold_action: none
     state_image:
@@ -157,41 +157,41 @@ elements:
       left: 50%
       width: 100%
 # 14 Image Garagem
-#  - type: image
-#    entity: ?????
-#    tap_action: none
-#    hold_action: none
-#    state_image:
-#      'on': /local/planta3D/terreo_garagem_aberta.png
-#      'off': /local/planta3D/transparente.png
-#    style:
-#      top: 47.5%
-#      left: 50%
-#      width: 100%
+  - type: image
+    entity: cover.portao_garagem
+    tap_action: none
+    hold_action: none
+    state_image:
+      'on': /local/planta3D/terreo_garagem_aberta.png
+      'off': /local/planta3D/transparente.png
+    style:
+      top: 47.5%
+      left: 50%
+      width: 100%
 # 15 Image Portão Social
-#  - type: image
-#    entity: cover.portao_social_porta
-#    tap_action: none
-#    hold_action: none
-#    state_image:
-#      'on': /local/planta3D/terreo_portao_aberto_1.png
-#      'off': /local/planta3D/transparente.png
-#    style:
-#      top: 47.5%
-#      left: 50%
-#      width: 100%
+  - type: image
+    entity: input_boolean.controle_portao_social
+    tap_action: none
+    hold_action: none
+    state_image:
+      'on': /local/planta3D/terreo_portao_aberto_1.png
+      'off': /local/planta3D/transparente.png
+    style:
+      top: 47.5%
+      left: 50%
+      width: 100%
 # 16 Image Cinema
-#  - type: image
-#    entity: scene.on_cinema
-#    tap_action: none
-#    hold_action: none
-#    state_image:
-#      'on': /local/planta3D/varanda_sophia_acesa_4.png
-#      'off': /local/planta3D/transparente.png
-#    style:
-#      top: 47.5%
-#      left: 50%
-#      width: 100%
+  - type: image
+    entity: scene.on_cinema
+    tap_action: none
+    hold_action: none
+    state_image:
+      'on': /local/planta3D/varanda_sophia_acesa_4.png
+      'off': /local/planta3D/transparente.png
+    style:
+      top: 47.5%
+      left: 50%
+      width: 100%
 # 01 State Icon Area Gourmet
   - type: state-icon
     entity: switch.area_gourmet
@@ -272,7 +272,7 @@ elements:
       —-paper-item-icon-color: white
 # 07 State Sala de Video
   - type: state-icon
-    entity: switch.sala_de_video
+    entity: light.smart_switch_sala_video
     tap_action:
       action: toggle
     hold_action:
@@ -362,54 +362,54 @@ elements:
       '--mdc-icon-size': 30px
       —-paper-item-icon-color: white
 # 14 State Garagem
-#  - type: state-icon
-#    entity: ?????
-#    tap_action:
-#      action: toggle
-#    hold_action:
-#      action: more-info
-#    style:
-#      top: 75%
-#      left: 96%
-#      opacity: 5
-#      '--mdc-icon-size': 30px
-#      —-paper-item-icon-color: white
+  - type: state-icon
+    entity: cover.portao_garagem
+    tap_action:
+      action: toggle
+    hold_action:
+      action: more-info
+    style:
+      top: 75%
+      left: 96%
+      opacity: 5
+      '--mdc-icon-size': 30px
+      —-paper-item-icon-color: white
 # 15 State Portão Social
-#  - type: state-icon
-#    entity: cover.portao_social_porta
-#    tap_action:
-#      action: toggle
-#    hold_action:
-#      action: more-info
-#    style:
-#      top: 82%
-#      left: 96%
-#      opacity: 5
-#      '--mdc-icon-size': 30px
-#      —-paper-item-icon-color: white
+  - type: state-icon
+    entity: input_boolean.controle_portao_social
+    tap_action:
+      action: toggle
+    hold_action:
+      action: more-info
+    style:
+      top: 82%
+      left: 96%
+      opacity: 5
+      '--mdc-icon-size': 30px
+      —-paper-item-icon-color: white
 # 16 Image Cinema
-#  - type: state-icon
-#    entity: scene.on_cinema
-#    tap_action:
-#      action: toggle
-#    hold_action:
-#      action: more-info
-#    style:
-#      top: 89%
-#      left: 83%
-#      opacity: 5
-#      '--mdc-icon-size': 30px
-#      —-paper-item-icon-color: white
-#  - type: state-icon
-#    entity: scene.off_cinema
-#    tap_action:
-#      action: toggle
-#    hold_action:
-#      action: more-info
-#    style:
-#      top: 89%
-#      left: 96%
-#      opacity: 5
-#      '--mdc-icon-size': 30px
-#      —-paper-item-icon-color: white
+  - type: state-icon
+    entity: scene.on_cinema
+    tap_action:
+      action: toggle
+    hold_action:
+      action: more-info
+    style:
+      top: 89%
+      left: 83%
+      opacity: 5
+      '--mdc-icon-size': 30px
+      —-paper-item-icon-color: white
+  - type: state-icon
+    entity: scene.off_cinema
+    tap_action:
+      action: toggle
+    hold_action:
+      action: more-info
+    style:
+      top: 89%
+      left: 96%
+      opacity: 5
+      '--mdc-icon-size': 30px
+      —-paper-item-icon-color: white
 image: /local/planta3D/terreo_apagado_12.png
