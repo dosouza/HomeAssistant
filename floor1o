@@ -1,0 +1,240 @@
+type: picture-elements
+elements:
+  - type: image
+    entity: switch.sanca_casal
+    tap_action: none
+    hold_action: none
+    state_image:
+      'on': /local/planta3D/quarto_casal_acesa_4.png
+      'off': /local/planta3D/transparente.png
+    style:
+      top: 48.3%
+      left: 49.9%
+      width: 100%
+  - type: image
+    entity: switch.closet
+    tap_action: none
+    hold_action: none
+    state_image:
+      'on': /local/planta3D/closet_acesa_3.png
+      'off': /local/planta3D/transparente.png
+    style:
+      top: 48.3%
+      left: 49.9%
+      width: 100%
+  - type: image
+    entity: switch.corredor_1o
+    tap_action: none
+    hold_action: none
+    state_image:
+      'on': /local/planta3D/corredor_1o_acesa_3.png
+      'off': /local/planta3D/transparente.png
+    style:
+      top: 48.3%
+      left: 49.9%
+      width: 100%
+  - type: image
+    entity: switch.hospede
+    tap_action: none
+    hold_action: none
+    state_image:
+      'on': /local/planta3D/hospede_acesa_4.png
+      'off': /local/planta3D/transparente.png
+    style:
+      top: 48.3%
+      left: 49.9%
+      width: 100%
+  - type: image
+    entity: switch.varanda_casal
+    tap_action: none
+    hold_action: none
+    state_image:
+      'on': /local/planta3D/varanda_casal_acesa_3.png
+      'off': /local/planta3D/transparente.png
+    style:
+      top: 48.3%
+      left: 49.9%
+      width: 100%
+  - type: image
+    entity: switch.varanda_hospede
+    tap_action: none
+    hold_action: none
+    state_image:
+      'on': /local/planta3D/varanda_hospede_acesa_4.png
+      'off': /local/planta3D/transparente.png
+    style:
+      top: 48.3%
+      left: 49.9%
+      width: 100%
+  - type: image
+    entity: switch.quarto_sophia1
+    tap_action: none
+    hold_action: none
+    state_image:
+      'on': /local/planta3D/quarto_sophia1_acesa_4.png
+      'off': /local/planta3D/transparente.png
+    style:
+      top: 48.3%
+      left: 49.9%
+      width: 100%
+  - type: image
+    entity: switch.quarto_sophia2
+    tap_action: none
+    hold_action: none
+    state_image:
+      'on': /local/planta3D/quarto_sophia2_acesa_2.png
+      'off': /local/planta3D/transparente.png
+    style:
+      top: 48.3%
+      left: 49.9%
+      width: 100%
+  - type: image
+    entity: switch.varanda_sophia
+    tap_action: none
+    hold_action: none
+    state_image:
+      'on': /local/planta3D/varanda_sophia_acesa_4.png
+      'off': /local/planta3D/transparente.png
+    style:
+      top: 48.3%
+      left: 50%
+      width: 100%
+  - type: image
+    entity: switch.filtro_de_linha_2
+    tap_action: none
+    hold_action: none
+    state_image:
+      'on': /local/planta3D/tv_casal_acesa_1.png
+      'off': /local/planta3D/transparente.png
+    style:
+      top: 48.3%
+      left: 50%
+      width: 100%
+  - type: state-icon
+    entity: switch.sanca_casal
+    icon: mdi:floor-lamp-torchiere-variant
+    tap_action:
+      action: toggle
+    hold_action:
+      action: more-info
+    style:
+      top: 48%
+      left: 25%
+  - type: state-icon
+    entity: switch.closet
+    icon: mdi:floor-lamp-torchiere-variant
+    tap_action:
+      action: toggle
+    hold_action:
+      action: more-info
+    style:
+      top: 65%
+      left: 31%
+  - type: state-icon
+    entity: switch.corredor_1o
+    icon: mdi:floor-lamp-torchiere-variant
+    tap_action:
+      action: toggle
+    hold_action:
+      action: more-info
+    style:
+      top: 83%
+      left: 45%
+  - type: state-icon
+    entity: switch.hospede
+    icon: mdi:floor-lamp-torchiere-variant
+    tap_action:
+      action: toggle
+    hold_action:
+      action: more-info
+    style:
+      top: 60.5%
+      left: 48.5%
+  - type: state-icon
+    entity: switch.varanda_casal
+    icon: mdi:floor-lamp-torchiere-variant
+    tap_action:
+      action: toggle
+    hold_action:
+      action: more-info
+    style:
+      top: 30%
+      left: 30%
+  - type: state-icon
+    entity: switch.varanda_hospede
+    icon: mdi:floor-lamp-torchiere-variant
+    tap_action:
+      action: toggle
+    hold_action:
+      action: more-info
+    style:
+      top: 41%
+      left: 45%
+  - type: state-icon
+    entity: switch.quarto_sophia1
+    icon: mdi:floor-lamp-torchiere-variant
+    tap_action:
+      action: toggle
+    hold_action:
+      action: more-info
+    style:
+      top: 60%
+      left: 63%
+  - type: state-icon
+    entity: switch.quarto_sophia2
+    icon: mdi:floor-lamp-torchiere-variant
+    tap_action:
+      action: toggle
+    hold_action:
+      action: more-info
+    style:
+      top: 57%
+      left: 73%
+  - type: state-icon
+    entity: switch.varanda_sophia
+    icon: mdi:floor-lamp-torchiere-variant
+    tap_action:
+      action: toggle
+    hold_action:
+      action: more-info
+    style:
+      top: 37%
+      left: 59%
+  - type: state-icon
+    icon: mdi:light-flood-down
+    entity: switch.filtro_de_linha_2
+    tap_action:
+      action: toggle
+    hold_action:
+      action: more-info
+    style:
+      top: 47%
+      left: 32.8%
+      opacity: 5
+      '--mdc-icon-size': 15px
+      —-paper-item-icon-color: white
+  - type: state-icon
+    entity: light.abajur_hospede
+    tap_action:
+      action: toggle
+    hold_action:
+      action: more-info
+    style:
+      top: 67%
+      left: 43.5%
+      opacity: 5
+      '--mdc-icon-size': 15px
+      —-paper-item-icon-color: white
+  - type: state-icon
+    entity: switch.sonoff_1002035eb7_3
+    tap_action:
+      action: toggle
+    hold_action:
+      action: more-info
+    style:
+      top: 67%
+      left: 44%
+      opacity: 5
+      '--mdc-icon-size': 15px
+      —-paper-item-icon-color: white
+image: /local/planta3D/1o_piso_apagado_6.png
