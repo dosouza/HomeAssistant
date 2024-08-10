@@ -1,0 +1,24 @@
+type: entity-filter
+entities:
+  - entity: switch.despensa
+  - entity: light.lavanderia
+  - entity: switch.cozinha
+  - entity: switch.jantar
+  - entity: switch.corredor_jantar
+  - entity: light.banheiro_social
+  - entity: light.smart_switch_sala_video
+  - entity: light.smart_switch_sala_video_usb
+  - entity: switch.sala_de_estar
+  - entity: switch.refletor_quintal
+  - entity: switch.area_gourmet
+  - entity: switch.refletor_fundos
+  - entity: light.refletor_rua
+  - entity: light.interruptor_garagem_externo
+  - entity: switch.sala_video_1
+  - entity: switch.sala_video_2
+state_color: false
+show_header_toggle: true
+title: ALL
+state_filter:
+  - 'on'
+show_empty: false
