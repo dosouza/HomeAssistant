@@ -1,0 +1,20 @@
+type: picture-elements
+elements:
+  - type: state-icon
+    entity: weather.forecast_casa
+    style:
+      top: 5%
+      left: 92%
+  - type: state-label
+    entity: sensor.sonoff_100120125f_temperature
+    prefix: 'Mogi-SP - '
+    style:
+      top: 5%
+      left: 55%
+#      font-size: 150%
+  - type: state-icon
+    entity: script.teste_de_script
+    style:
+      top: 90%
+      left: 5%
+camera_image: camera.camera_tempo
