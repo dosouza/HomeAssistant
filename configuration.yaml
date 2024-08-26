@@ -1,0 +1,70 @@
+
+# Loads default set of integrations. Do not remove.
+default_config:
+
+# Load frontend themes from the themes folder
+frontend:
+  themes: !include_dir_merge_named themes
+
+automation: !include automations.yaml
+script: !include scripts.yaml
+scene: !include scenes.yaml
+
+homekit:
+  - name: HA Bridge Dez
+    port: 51828
+    filter:
+      include_entities:
+        - switch.sonoff_1001f280ec_2
+        - switch.sonoff_1001dbbe60_4
+        - cover.garagem_porta
+        - switch.sonoff_1001dbbe60_3
+        - light.sonoff_1001dffd28
+        - climate.ar_casal
+        - climate.ar_sala
+        - climate.ar_hospede
+
+camera:
+  - platform: ffmpeg
+    name: Camera1
+    input: -rtsp_transport tcp -i rtsp://usuario:SsS!2024@10.10.0.240:554/cam/realmonitor?channel=1&subtype=1
+
+  - platform: ffmpeg
+    name: Camera2
+    input: -rtsp_transport tcp -i rtsp://usuario:SsS!2024@10.10.0.240:554/cam/realmonitor?channel=2&subtype=1
+
+  - platform: ffmpeg
+    name: Camera3
+    input: -rtsp_transport tcp -i rtsp://usuario:SsS!2024@10.10.0.240:554/cam/realmonitor?channel=3&subtype=1
+
+  - platform: ffmpeg
+    name: Camera4
+    input: -rtsp_transport tcp -i rtsp://usuario:SsS!2024@10.10.0.240:554/cam/realmonitor?channel=4&subtype=1
+    
+  - platform: ffmpeg
+    name: Camera5
+    input: -rtsp_transport tcp -i rtsp://usuario:SsS!2024@10.10.0.240:554/cam/realmonitor?channel=5&subtype=1
+    
+  - platform: ffmpeg
+    name: Camera6
+    input: -rtsp_transport tcp -i rtsp://usuario:SsS!2024@10.10.0.240:554/cam/realmonitor?channel=6&subtype=1
+    
+  - platform: ffmpeg
+    name: Camera_Gás
+    input: -rtsp_transport tcp -i rtsp://admin:123456@10.10.2.196:8554/Streaming/Channels/101
+  
+  - platform: ffmpeg
+    name: Camera_Smart_Home
+    input: -rtsp_transport tcp -i rtsp://wpub:nw6rkx@10.10.2.191:554
+
+  - platform: local_file
+    name: camera_tempo
+    file_path: /config/www/tmp/tempo.jpg
+
+  - platform: ffmpeg
+    name: Camera_Rua1
+    input: -rtsp_transport tcp -i rtsp://admin:UVRXFK39@10.10.0.246:554/cam/realmonitor?channel=1&subtype=0&unicast=true&proto=Onvif
+    
+  - platform: ffmpeg
+    name: Camera_Rua2
+    input: -rtsp_transport tcp -i rtsp://admin:SsS#2022@10.10.0.241:554/cam/realmonitor?channel=1&subtype=0&unicast=true&proto=Onvif
