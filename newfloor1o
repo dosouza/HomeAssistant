@@ -8,100 +8,119 @@ elements:
 
 
 
-# Imagem Banheiro Casal Led
+# Imagem Banheiro Casal Luz
   - type: image
     entity: light.banheiro_casal
-    title: Banheiro Casal Led
+    title: Banheiro Casal Luz
     state_image:
-      'on': /local/planta3D/banheiro_casal_led_aceso.png
+      'on': /local/planta3D/banheiro_casal_luz.png
       'off': /local/planta3D/transparente.png
     style:
       top: 49%
       left: 39%
       width: 100%
-# Imagem Banheiro Casal Led 1
+# Imagem Banheiro Casal Box
   - type: image
     entity: light.led_banheiro_casal_1
-    title: Banheiro Casal Led 1
+    title: Banheiro Casal Box
     state_image:
-      'on': /local/planta3D/banheiro_casal_led_1_1_aceso.png
+      'on': /local/planta3D/banheiro_casal_box_1.png
       'off': /local/planta3D/transparente.png
     style:
       top: 49%
       left: 39%
       width: 100%
-# Imagem Banheiro Casal Led 2
+# Imagem Banheiro Casal Nicho
   - type: image
     entity: light.led_banheiro_casal_2
-    title: Banheiro Casal Led 2
+    title: Banheiro Casal Nicho
     state_image:
-      'on': /local/planta3D/banheiro_casal_led_2_aceso.png
+      'on': /local/planta3D/banheiro_casal_nicho_1.png
       'off': /local/planta3D/transparente.png
     style:
       top: 49%
       left: 39%
       width: 100%
-# Imagem Quarto Casal
+# Imagem Quarto Casal Luz
   - type: image
     entity: light.led_casal
-    title: Led Quarto Casal
+    title: Quarto Casal Luz
     state_image:
-      'on': /local/planta3D/1o_quarto_casal.png
+      'on': /local/planta3D/quarto_casal_luz.png
       'off': /local/planta3D/transparente.png
     style:
       top: 49%
       left: 39%
       width: 100%
-
+# Imagem Quarto Casal Sanca
+  - type: image
+    entity: light.sanca_casal
+    title: Quarto Casal Sanca
+    state_image:
+      'on': /local/planta3D/quarto_casal_sanca_1.png
+      'off': /local/planta3D/transparente.png
+    style:
+      top: 49%
+      left: 39%
+      width: 100%
 
 
 ########### PARTE DOS ICONES
 
 
 
-# Icone Banheiro Casal Led
+# Icone Banheiro Casal Luz
   - type: state-icon
     entity: light.banheiro_casal
-    title: Banheiro Casal Led
+    title: Banheiro Casal Luz
     style:
-      top: 16%
+      top: 15%
       left: 36.5%
-      '--mdc-icon-size': 50px
+      '--mdc-icon-size': 35px
     tap_action:
       action: toggle
-# Icone Banheiro Casal Led 1
+# Icone Banheiro Casal Box
   - type: state-icon
     entity: light.led_banheiro_casal_1
-    title: Banheiro Casal Led 1
+    title: Banheiro Casal Box
     style:
-      top: 16%
+      top: 15%
       left: 42%
-      '--mdc-icon-size': 50px
+      '--mdc-icon-size': 35px
     tap_action:
       action: toggle
-# Icone Banheiro Casal Led 2
+# Icone Banheiro Casal Nicho
   - type: state-icon
     entity: light.led_banheiro_casal_2
-    title: Banheiro Casal Led 2
+    title: Banheiro Casal Nicho
     style:
-      top: 25%
+      top: 24%
       left: 39.5%
-      '--mdc-icon-size': 50px
+      '--mdc-icon-size': 35px
     tap_action:
       action: toggle
-# Icone Quarto Casal
+# Icone Quarto Casal Luz
   - type: state-icon
     entity: light.led_casal
-    title: Led Quarto Casal
+    title: Quarto Casal Luz
     style:
-      top: 25%
-      left: 45%
-      '--mdc-icon-size': 50px
+      top: 15%
+      left: 48%
+      '--mdc-icon-size': 35px
     tap_action:
       action: toggle
-
+# Icone Quarto Casal Sanca
+  - type: state-icon
+    entity: light.sanca_casal
+    title: Quarto Casal Sanca
+    style:
+      top: 15%
+      left: 53.5%
+      '--mdc-icon-size': 35px
+    tap_action:
+      action: toggle
 
 ########### FIM
 
-image: /local/planta3D/1o_apagado_08.png
+image: /local/planta3D/1o_apagado_10.png
 
