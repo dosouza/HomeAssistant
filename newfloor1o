@@ -119,8 +119,34 @@ elements:
       '--mdc-icon-size': 35px
     tap_action:
       action: toggle
+# Icone Sensor Closet
+  - type: state-icon
+    entity: binary_sensor.closet
+    title: Sensor Closet
+    icon: mdi:run
+    style:
+      top: 84%
+      left: 34%
+      '--iron-icon-stroke-color': '#969696'
+#      border-radius: 50%    - Não tem efeito no editor grafico
+#      text-align: center
+#    background-color: "rgba(255, 255, 255, 0.3)"
+
+# Etiqueta de Estado Sensor Temperatura Casal
+  - type: state-label
+    entity: sensor.sonoff_a44001c5c3_temperature
+    title: Sensor Temperatura Casal
+    style:
+      top: 35%
+      left: 70%
+      color: '#FFFFFF'
+#      font-size: 11px
+#      font-weight: bold
+#      border-radius: 50%   - Não tem efeito no editor grafico
+#      text-align: center
+#      background-color: rgba(255, 255, 255, 0.3)
 
 ########### FIM
 
-image: /local/planta3D/1o_apagado_10.png
+image: /local/planta3D/1o_apagado_11.png
 
